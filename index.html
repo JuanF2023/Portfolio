@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Juan Flores Resume</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,10 +28,45 @@
       th,td {
         padding: 8px;
         text-align: left;
-        border-bottom: 1px solid #ddd;
-        
-      }
+        border-bottom: 1px solid #ddd;}
+	
+    .pic:hover
+    {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+    }
+    .button {
+  background-color: #C84D32;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  ali
+}
 
+.button:hover,
+.button:focus {
+  background-color: #695D5A;
+}
       </style>
 
   </head>
@@ -71,6 +106,9 @@
 	 <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
+  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#Message">Send a Message</a>
+          </li>          
         </ul>
       </div>
     </nav>
@@ -79,7 +117,8 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Juan Flores</h1> 
+          <p style="text-align: right">Site built in Abr 2023, Last update: Abr 04, 2023</p>
+           <h1 class="mb-0">Juan Flores</h1> 
             <h2><span class="text-primary">Developer</span>
           </h2>
           <div class="subheading mb-5">Los Angeles· Cudahy, CA 90201· (323) 907-8516 ·
@@ -118,42 +157,91 @@
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
-            </li>
-          </ul>
+             </li>
+            </ul>
         </div>
+        
       </section>
-
-   
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-        
+        <div class="table-responsive">
           <h2 class="mb-5">Portfolio</h2>
-          <p>Under construction</p>
-          <table>
-            <tr>
-              <th>Corr</th>
-              <th>Type</th>
-              <th>Lenguage</th>
-              <th>DB interact</th>
-              <th>Description</th>
-              <th>GUI</th>
-              <th>Code</th>
-            </tr>
-            <tr>
-              <td>1</th>
-              <td>Desktop</th>
-              <td>Visual Basic</th>
-              <td>No</th>
-              <td>Calculates tuition and other fees</th>
-              <td><a href="img/proj/tuitioncalculator.png">See interface</a></td>
-              <td><a href="img/proj/tuitioncalculator.pdf">See Code</a></th>
-            </tr>
-            
-          </table>
-	<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/UnderConstruction1.gif" alt="">
-       </div>
-      </section>
+          <h5>Following some projects I have worked from 2023 as of today</h5>
+	<table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Ref date</th>
+          <th>Type</th>
+          <th>Lenguage</th>
+          <th>DB interact</th>
+          <th>Description</th>
+          <th>GUI</th>
+          <th>Code</th>
+          <th>Live</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ene 2023</td>
+          <td>Desktop</td>
+          <td>Visual Basic</td>
+          <td>No</td>
+          <td>Calculates tuition and other fees</td>
+          <td><a href="img/proj/tuitioncalculator.png">See interface</a></td>
+          <td><a href="img/proj/tuitioncalculator.pdf">See Code</a></td>
+          <td>No Available</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ene 2023</td>
+          <td>Desktop</td>
+          <td>Visual Basic</td>
+          <td>No</td>
+          <td>Converts from meters to inches and vice-versa</td>
+          <td><a href="img/proj/conversions.png">See interface</a></td>
+          <td><a href="img/proj/Conversions.pdf">See Code</a></td>
+          <td>No Available</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ene 2023</td>
+          <td>Desktop</td>
+          <td>Visual Basic</td>
+          <td>No</td>
+          <td>Calculates the average speed of a home Internet connection</td>
+          <td><a href="img/proj/InternetSpeed.png">See interface</a></td>
+          <td><a href="img/proj/InternetSpeed.pdf">See Code</a></td>
+          <td>No Available</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ene 2023</td>
+          <td>Desktop</td>
+          <td>Visual Basic</td>
+          <td>No</td>
+          <td>Determines the cost for the hours or songs rented</td>
+          <td><a href="img/proj/KaraokeMusic.png">See interface</a></td>
+          <td><a href="img/proj/KaraokeMusic.pdf">See Code</a></td>
+          <td>No Available</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Ene 2023</td>
+          <td>Desktop</td>
+          <td>Visual Basic</td>
+          <td>No</td>
+          <td>Determines the location and scuba dives available and calculates the total dive team cost</td>
+          <td><a href="img/proj/ScubaDive.png">See interface</a></td>
+          <td><a href="img/proj/ScubaDive.pdf">See Code</a></td>
+          <td>No Available</td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+  </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
@@ -183,7 +271,7 @@
             </div>
           </div>
 
-	 <div class="resume-item d-flex flex-column flex-md-row">
+	  <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">East Los Angeles College</h3>
               <div class="subheading mb-3">Diploma in Cloud Computing</div>
@@ -199,64 +287,51 @@
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-	 <img src="C:\Users\JUFLORES\OneDrive\ELAC\MyPortfolioWeb\JuanF2023\img\AWS.png" alt="AWS logo">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 	
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-		  
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
+           <div class="subheading mb-3">Programming Languages and Tools</div>
+	     <ul class="list-inline list-icons">
+          <li class="list-inline-item">
+            <img src="img\AWS.png" alt="AWS logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\VisualBasic.png" alt="VisualBasic logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\Cplus.jpg" alt="Cplus logo"  width="150" height="80" >
+          </li>  
+          <li class="list-inline-item">
+            <img src="img\Java.jpg" alt="Java logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\MySql.jpg" alt="AWS logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\MySqlWorkbench.jpg" alt="AWS logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\SqlServer.jpg" alt="AWS logo"  width="110" height="80" >
+          </li>
+          <li class="list-inline-item">
+            <img src="img\VisualStudio.jpg" alt="AWS logo"  width="110" height="80" >
+          </li>        
+        </ul>
+          <div class="subheading mb-3">Office Applications</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
+              Microsoft Word</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
+              Microsoft Excel</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+              Microsoft Power Point</li>
+            
           </ul>
         </div>
+      </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
@@ -314,6 +389,27 @@
         </div>
 
     </div>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Message">
+    <!-- START: Form -->
+                    <form action="#" class="nk-form nk-form-ajax">
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control required" name="title" placeholder="Your Title">
+                        <textarea class="form-control required" name="message" rows="8" placeholder="Your Comment" aria-required="true"></textarea>
+                        <button class="button">Send Message</button>
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/UnderConstruction1.gif" alt="">
+
+                    </form>
+                    <!-- END: Form -->    
+ 
+</section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
