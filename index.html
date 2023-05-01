@@ -24,52 +24,9 @@
     <link href="css/resume.min.css" rel="stylesheet">
 
     <style>
-           
-      th,td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;}
-	
-    .pic:hover
-    {
-      opacity: 0.3;
-      filter: alpha(opacity=30);
-    }
-    .button {
-  background-color: #BD5D38;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  ali
-}
-
-.button:hover,
-.button:focus {
-  background-color: #695D5A;
-}
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #3f4141;
 }
 
 .topnav a {
@@ -83,8 +40,8 @@
 }
 
 .topnav a:hover {
-  background-color: #04AA6D;
-  color: black;
+  background-color: #007bff;
+  color: white;
 }
 
 .topnav a.active {
@@ -123,11 +80,11 @@
   color: white;
   cursor: pointer;
   padding: 18px;
-  
+  font-weight: bold;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .active, .collapsible:hover {
@@ -151,14 +108,13 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #BD5D38;
 }
 </style>
 
   </head>
 
   <body id="page-top">
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Menu</span>
@@ -166,46 +122,35 @@
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
       </a>
-      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
+	        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="portfolio.html">Portfolio</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About me</a>
+            <a class="nav-link js-scroll-trigger" href="index.html#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#skills">Skills</a>
           </li>
 	        <li class="nav-item">
-            <button class="collapsible">PORTFOLIO</button>
-            <div class="content">
-              <div class="topnav" id="myTopnav">
-                <a href="#portfolio">See All</a>
-                <a href="#WebProjects">Web Projects</a>
-                <a href="#DesktopProjects">Desktop Projects</a>
-                <a href="#DBInteract">DB Interact</a>
-                <a href="#Featured">Featured</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-            </div>
-            
+            <a class="nav-link js-scroll-trigger" href="index.html#interests">Interests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger" href="index.html#awards">Awards</a>
+          </li>
+	        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-	  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-	 <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Message">Send a Message</a>
-          </li>          
+            <a class="nav-link js-scroll-trigger" href="index.html#Message">Send a Message</a>
+          </li>       
         </ul>
       </div>
     </nav>
@@ -263,7 +208,7 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
         <div style="overflow-x:auto;">
-        <h2 class="mb-5">all</h2>
+        <h2 class="mb-5">all projects</h2>
       <table class="table table-bordered">
       <thead>
         <tr>
@@ -364,6 +309,7 @@
     <div style="overflow-x:auto;">
       <h2 class="mb-5">Web Projects</h2>
       <a> No Projects Found</a>
+      <div><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/one.gif" alt=""></div>
 </div>
 
 
@@ -374,6 +320,7 @@
   <div style="overflow-x:auto;">
     <h2 class="mb-5">Desktop Projects</h2>
     <a> No Projects Found</a>
+    <div><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/one.gif" alt=""></div>
 </div>
 </section>
 
@@ -382,6 +329,7 @@
   <div style="overflow-x:auto;">
     <h2 class="mb-5">Data Base Interaction Projects</h2>
     <a> No Projects Found</a>
+    <div><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/one.gif" alt=""></div>
 </div>
 </section>
 
@@ -389,6 +337,7 @@
   <div style="overflow-x:auto;">
     <h2 class="mb-5">Featured Projects</h2>
     <a> No Projects Found</a>
+    <div><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/one.gif" alt=""></div>
 </div>
 </section>
 
